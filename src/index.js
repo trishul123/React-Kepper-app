@@ -1,0 +1,17 @@
+//var react = require("react");
+//var reactDom = require("react-dom");
+//import react from "react";
+//import reactDom from "react-dom";
+import "./style.css";
+import App from "./App";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
